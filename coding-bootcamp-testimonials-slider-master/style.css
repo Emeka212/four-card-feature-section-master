@@ -1,0 +1,148 @@
+ /*Feel free to remove these styles or customise in your own stylesheet 👍 */
+ .attribution { position: relative;margin-top: 170px;font-size: 11px; text-align: center; }
+ .attribution a { color: hsl(228, 45%, 44%); }
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: Arial;
+	font-family: [Inter](https://fonts.google.com/specimen/Inter);
+	font-weight: 300;
+}
+.bg_img .pattern_bg{
+	position: absolute;
+	right: 25px;
+	top: 10px;
+}
+.bg_img .pattern_curve{
+	position: absolute;
+	bottom: 0%;
+}
+.bg_img .pattern_quotes{
+    position: absolute;
+    top: 150px;
+    left: 20%;
+}
+.all_pics_img{
+	position: relative;
+	overflow: hidden;
+	margin: 50px 0px 0px 50%;
+	padding: 0px;
+	width: 540px;
+	display: inline-flex;
+	box-shadow: 10px 10px 25px 1px darkgray;
+}
+.all_pics_img img{
+	position: relative;
+	margin-bottom: -4px;
+	transition: 0.6s;
+}
+.all_slide_btn{
+	position: relative;
+	padding: 20px 0px 15px 30px;
+	border-radius: 100px;
+	width: 90px;
+	margin: -30px 0px 50px 55%;
+	box-shadow: 0px 10px 25px 1px darkgray;
+	background: #fff;
+}
+.all_slide_btn img{
+	margin-right: 30px;
+	cursor: pointer;
+}
+.all_bio{
+	position: relative;
+	width: 45%;
+	margin-left: 10%;
+	font-size: 30px;
+	margin-top: -450px;
+	line-height: 40px;
+	color: hsl(240, 38%, 20%);
+}
+.all_bio .bio_name_skill{
+	margin-top: 50px;
+	font-size: 17px;
+	color: hsl(240, 18%, 77%);
+}
+.all_bio .bio_name_skill b{
+    color: hsl(240, 38%, 20%);
+}
+.all_bio .bio2{
+	display: none;
+}
+
+@media screen and (max-width: 1170px){
+    .all_pics_img{
+		margin: 50px 0px 0px 45%;
+	}
+}
+@media screen and (max-width: 1030px){
+    .all_pics_img{
+		margin: 50px 0px 0px 40%;
+	}
+	.all_bio{
+		margin-left: 5%;
+	}
+}
+@media screen and (max-width: 950px){
+    .all_pics_img{
+		margin: 50px 0px 0px 35%;
+	}
+	.all_bio{
+		margin-left: 4%;
+	}
+}
+@media screen and (max-width: 870px){
+    .attribution {margin-top: 100px;}
+    .bg_img .pattern_bg{
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 90%;
+		margin-top: 20px;
+	}
+	.bg_img .pattern_quotes{
+	    position: relative;
+	    margin-top: 0px;
+	    left: 50%;
+	    transform: translateX(-50%);
+	}
+	.bg_img .pattern_curve{
+		position: relative;
+		margin-top: 500px;
+		margin-bottom: 0px;
+		width: 100%;
+	}
+	.pics_section{
+		position: absolute;
+		top: 20px;
+		width: 90%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.all_pics_img{
+		border-radius: 5px;
+		margin: 50px 0px 0px 0%;
+		width: 100%;
+	}
+	.all_pics_img img{
+		width: 100%;
+	}
+	.all_pics_img .image_john{
+		display: none;
+	}
+	.all_slide_btn{
+		margin: -30px 0px 50px 50%;
+		transform: translateX(-50%);
+	}
+	.all_bio{
+		width: 90%;
+		margin-left: 50%;
+		transform: translateX(-50%);
+		font-size: 25px;
+		margin-top: -500px;
+		text-align: center;
+	}
+
+	
+
+}
